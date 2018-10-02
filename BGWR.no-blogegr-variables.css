@@ -1,0 +1,73 @@
+/*
+-- Widgets for blogger 
+-- Versão: 1.0
+-- By: Kouttak 
+-- Creator URL: fb.com/kouttak.vinicius
+-- Nota
+   Esse plugin usa o formato de widgets padrções do blogger, não desative o JS padrão do blogger
+*/
+.widget {background: #f3f3f3;}
+.widget .title, .widget > h1, .widget > h2, .widget > h3, .widget > h4, .widget > h5, .widget > h6 {font-size: 20px;text-align: center;padding: 1.2rem 1rem;border-bottom: 2px solid #f9f9f9;text-transform: uppercase;margin-top:0;}
+.BlogSearch > .title, .FeaturedPost > .title, .HTML > .title {display: none;}.BlogSearch table {margin: 0;}.BlogSearch tr {border: none;}.BlogSearch table td {padding: 0;}
+.BlogSearch .gsc-input > input {width: 100%;padding: 18px 6px;border: none;background: #f3f3f3;color: #423f3f;}
+.BlogSearch .gsc-search-button > input {width: 100%;padding: 15px 0px;border-left: 1px solid #f9f9f9;border-right: none;border-top: none;border-bottom: none;background: #f3f3f3;color: #262e35;text-transform: uppercase;font-family: 'Poppins', sans-serif;font-size: 1rem;}
+.BlogSearch .gsc-input > input:focus {border-bottom: 1px solid #ec3737;width: 96%;outline: none;}
+.BlogSearch .gsc-search-button > input:focus {outline: none;}
+.BlogSearch .gsc-input {width: 70%;}
+.Image {margin-top: 1rem;}
+.BlogSearch table td:nth-child(2) {max-width: 25%;}
+.BlogSearch .gsc-search-button > input:hover {border-color: #ec3737;color: #ec3737;}
+.FeaturedPost h3 {font-size: 16px;text-align: center;padding: 1.2rem 1rem;border-bottom: 2px solid #f9f9f9;text-transform: uppercase;}
+.FeaturedPost h3 > a:hover {border-bottom: 1px dashed;}
+.FeaturedPost p {padding: 0rem 1rem 1.2rem;margin: 0;text-align: center;color: #423f3f;}
+body .HTML {background: transparent;}
+.Profile > .widget-content {display: flex;flex-wrap: wrap;}
+.Profile > .profile-datablock {margin-block-start: 0;margin-block-end: 0;padding: 1rem 0.2rem;}
+.Profile .profile-name-link {background-repeat: no-repeat;background-position: left;padding-left: 17px;font-family: 'Poppins',sans-serif;text-transform: uppercase;letter-spacing: 0;font-size: 12px;}
+.Profile .profile-link {font-family: 'Poppins',sans-serif;font-size: 12px;margin-top: 5em;}
+.BlogArchive .widget-content {padding: 0 1.25rem 1rem;}
+.BlogArchive .post-count-link {font-family: 'Mukta', sans-serif; text-transform: capitalize;color: #262e35;}
+.BlogArchive .hierarchy .posts {margin-left: 1.25rem;}
+.BlogArchive .hierarchy .posts li > a {font-family: 'Mukta', sans-serif;}
+.BlogArchive .hierarchy .posts > li {padding: 0.5rem 0;}
+.BlogArchive .archivedate {padding: 1rem 0;}
+.BlogArchive .archivedate > a {font-family: 'Mukta',sans-serif;text-transform: capitalize;}
+.BlogArchive select {border: 0;padding: 1rem;background: #f3f3f3;width: 100%;border-bottom: 1px solid;color: #262e35;font-family: 'Poppins',sans-serif;}
+.BlogArchive select:focus {outline: none;}
+.Followers .widget-content {padding: 0.5rem 1.25rem 1rem;}
+body .Image h2 {margin: 0;}
+.Image .widget-content {max-width: 350px;}
+.Image .widget-content > a >img {width: 100%;max-height: 270px;}
+.Image .caption {padding: 1rem 0;text-align: center;display: block;font-family: 'Mukta', sans-serif;color: #262e35;}
+.Label .list-label-widget-content li {padding: 1.25rem;border-bottom: 1px solid #f9f9f9;}
+.Label .list-label-widget-content li > a {font-family: 'Mukta',sans-serif;text-transform: uppercase;color: #262e35;}
+.Label .list-label-widget-content li > a:hover {color: #ec3737;}
+.Label .cloud-label-widget-content {display: flex;padding: 0 1.25rem 1rem;flex-wrap: wrap;align-content: space-between;}
+.Label .cloud-label-widget-content > span {color: #262e35;border: 1px solid;padding: 12px;margin-right: 5px;margin-top: 5px;}
+.Label .cloud-label-widget-content > span > a {color: #262e35;font-family: 'Mukta',sans-serif;}
+.Label .cloud-label-widget-content > span:hover a {color: #ec3737;}
+.Label .cloud-label-widget-content > span:hover {color: #ec3737;}.Text {margin-bottom: 1rem;}
+.Text .widget-content {font-family: 'Mukta',sans-serif;padding: 0 1.25rem 1rem;}
+.PopularPosts {margin-bottom: 1rem;}
+.PopularPosts li > .item-content {display: flex;flex-wrap: wrap;align-items: flex-start;}
+.PopularPosts li {border-bottom: 2px solid #f9f9f9;}
+.PopularPosts li > .item-content > .item-thumbnail {flex: 0 0 20%;}
+.PopularPosts li > .item-content > .item-title {flex: 0 0 71%;padding: 1.4rem 1rem;}
+.PopularPosts h2 {margin: 0;}
+.PopularPosts li > .item-content > .item-snippet {padding: 1rem;font-family: 'Mukta', sans-serif;}
+.PopularPosts li > .item-content > .item-title > a {font-size: 14px;font-family: 'Poppins', sans-serif;}
+.popular-posts .item-thumbnail-only {display: flex;}
+.popular-posts .item-title {padding: 1rem;}
+.popular-posts .item-thumbnail {flex: 0 0 21%;}
+.popular-posts .item-title > a {font-size: 14px;font-family: 'Poppins', sans-serif;}
+.FollowByEmail .follow-by-email-address {background: #f3f3f3;border: 0;margin: 0;height: 50px;width: 100%;padding: 0 10px;color: #262e35;}
+body .FollowByEmail {background: transparent;}
+.FollowByEmail .title {background: #f3f3f3;margin: 0;}
+.FollowByEmail td {padding: 0;}
+.FollowByEmail .follow-by-email-submit {height: 50px;border: 0;color: #262e35;background: #f3f3f3;border-left: 2px solid #f9f9f9;padding: 0 10px;}
+.FollowByEmail .follow-by-email-submit:hover {color: #ec3737;border-left: 2px solid #ec3737;}
+.FollowByEmail .follow-by-email-address:focus, .FollowByEmail .follow-by-email-submit:focus {outline: none;}
+
+@media only screen and (max-width:1009px) {
+    .BlogSearch {margin-top: 1.25rem;}
+}
